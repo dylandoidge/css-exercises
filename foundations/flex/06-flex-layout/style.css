@@ -24,3 +24,71 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style-type: none;
+  /* Optional: removes default indentation */
+  padding: 0; 
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+.left-links {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
